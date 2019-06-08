@@ -1,0 +1,115 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #5f6368;
+  }
+  
+  div#main {
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+  }
+  .content {
+    width: 980px;
+    height: 395px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: #5f6368; */
+  }
+  
+  .googleLogo {
+    padding-top: 109px;
+    text-align: center;
+  }
+  
+  .searchArea {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .googleinput {
+    width: 400px;
+  }
+  
+  li {
+    list-style: none;
+    display: inline;
+    padding: 0px 0px 0px 27px; 
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    height: 36px;
+    line-height: 27px;
+    margin-top: 10px;
+  }
+  
+  #googlesearch {
+      background-color: #f2f2f2;
+      border: 1px solid #f2f2f2;
+      border-radius: 4px;
+      color: #5F6368;
+      cursor: pointer;
+      font-family: arial,sans-serif;
+      font-size: 14px;
+      margin: 5px;
+      min-width: 54px;
+      padding: 0 16px;
+      text-align: center;
+  }
+  
+  #lucky {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 5px;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #EEE;
+    padding: 10px;
+  }
+  
+  .leftfooter {
+    float: left;
+  }
+  
+  .rightfooter {
+    float: right;
+    margin-right: 27px;
+  }
+  
+  .menulinks {
+    list-style: none;
+    display: inline;
+    margin: 0px 0px 3px 0px;
+    padding: 0px 0px 0px 27px; 
+    text-decoration: none;
+    color: #5f6368;
+  }
+  
+  #navigation {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .leftnav {
+    float: left;
+  }
+  
+  .rightnav {
+    float: right;
+    margin-right: 27px;
+  }
